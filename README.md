@@ -19,4 +19,4 @@ go build -o orihttp main.go
 # demo
 地址： [ori.codetech.top](https://ori.codetech.top)
 
-此demo因为使用apache反向代理，所以返回的请求头中有三个额外的`X-Forwarded-`参数，以及当发送的请求头中未设置Host时会得到`Host: 127.0.0.1:9001`。使用[ori.codetech.top:9001](http://ori.codetech.top:9001/)可以得到准确的原始http请求。
+此demo因为使用反向代理，所以返回的请求头中有几个额外的`X-`参数。使用[ori.codetech.top:9001](http://ori.codetech.top:9001/)可以得到准确的原始http请求。
